@@ -7,12 +7,12 @@ void main(int argc, char const *argv[])
     int levels;
     do
     {
-        printf("How many levels do you want to create? ");
+        printf("How many levels do you want to create? (max: 8) ");
         scanf("%i", &levels);
 
-        if (levels < 1) printf("Try again. Please provide a positive integer.");
+        if (levels < 1 || levels > 8) printf("Try again. Please provide a positive integer between 1 and 8.\n");
      
-    } while (levels < 1);
+    } while (levels < 1 || levels > 8);
     
     makePyramid(levels);
 }
