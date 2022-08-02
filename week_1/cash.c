@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int getChange(float input);
+int getChange(int input);
 int calculateCents(float input); 
 
 int main(int argc, char const *argv[])
@@ -32,7 +32,7 @@ int calculateCents(float input)
     return rounded;
 }
 
-int getChange(float total)
+int getChange(int total)
 {
     int counter = 0;
 
