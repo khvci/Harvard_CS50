@@ -81,3 +81,15 @@ week_1/cash
 /cmake-build-debug/CMakeFiles/TargetDirectories.txt
 /cmake-build-debug/.cmake/api/v1/query/toolchains-v1
 /cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-75940288cf1f0711e3a1.json
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+/out/production/Harvard_CS50/.idea/*
