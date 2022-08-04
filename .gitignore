@@ -91,5 +91,7 @@ week_1/cash
 /dataSources/
 /dataSources.local.xml
 
-
-/out/production/Harvard_CS50/.idea/*
+*.xml
+/out
+/.idea
+/.idea/uiDesigner.xml
